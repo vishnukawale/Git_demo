@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/vishnukawale/Git_demo.git
+git push -u origin master
+
+#run thise command only for first time not every time
+git config --global user.name "vishnukawale"
+git config --global user.email "vishnupant0011@gmail.com"
